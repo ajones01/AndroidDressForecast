@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Weather by Andrew</string>
+    <string name="submit">Update location</string>
+    <string name="getweather">Retrieving weather information</string>
+    <string name="defaultlocation">London</string>
+    <string name="back">Back</string>
+    <string name="today">Today</string>
+    <string name="recommendations">Clothing Recommendations</string>
+    <string name="condition">Forecast:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="mintemp">Min:</string>
+    <string name="maxtemp">Max:</string>
+
+</resources>

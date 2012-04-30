@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	    
+	    <TextView  
+	        android:id="@+id/txtDay"
+	    	android:layout_width="fill_parent" 
+	   		android:layout_height="wrap_content" 
+	   		android:gravity="left"
+	   		/>
+	    
+	    <TextView  
+	        android:id="@+id/txtCondition"
+	    	android:layout_width="fill_parent" 
+	   		android:layout_height="wrap_content" 
+	   		android:gravity="left"
+	   		/>
+	    
+	    <TextView  
+	        android:id="@+id/txtTempMin"
+	    	android:layout_width="fill_parent" 
+	   		android:layout_height="wrap_content" 
+	   		android:gravity="left"
+	   		/>
+	    
+	    <TextView  
+	        android:id="@+id/txtTempMax"
+	    	android:layout_width="fill_parent" 
+	   		android:layout_height="wrap_content" 
+	   		android:gravity="left"
+	   		/>
+	    
+	    <TextView  
+	        android:id="@+id/txtRecommendations"
+	    	android:layout_width="fill_parent" 
+	   		android:layout_height="wrap_content"
+	   		android:text="@string/recommendations" 
+	   		android:gravity="left"
+	   		android:layout_marginTop="25dp"
+	   		/>
+	    
+	    <TextView  
+	        android:id="@+id/txtFemaleRecommendation"
+	    	android:layout_width="fill_parent" 
+	   		android:layout_height="wrap_content" 
+	   		android:gravity="left"
+	   		/>
+	    
+	    <TextView  
+	        android:id="@+id/txtMaleRecommendation"
+	    	android:layout_width="fill_parent" 
+	   		android:layout_height="wrap_content" 
+	   		android:gravity="left"
+	   		/>
+	    
+		<Button android:text="@string/back"
+	        android:id="@+id/ButtonBack"
+	        android:layout_width="250px"
+	            android:textSize="18px"
+	        android:layout_height="55px">
+	    </Button>    
+	</LinearLayout>
+</ScrollView>
